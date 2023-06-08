@@ -456,21 +456,22 @@ p.smaller-txt {
 
 .customCircle{
   background: url('/assets/images/customCircle.png') no-repeat;
-  height: 114px;
-  font-size: 17px;
+  background-size: cover;
+  height: 80px;
+  font-size: 14px;
   padding: 0px 3px;
   color: white;
-  width: 114px;
+  width: 80px;
   margin: auto;
 }
 .customCircle p{
-  padding-top: 25%; 
+  padding-top: 15%; 
   margin-bottom: 0;
 }
 .customCircle i{
   width: 100%;
   transform: rotate(225deg);
-  font-size: 26px;
+  font-size: 18px;
 }
 .custom-btn {
   position: relative;
@@ -1240,6 +1241,16 @@ h2.serviceCircle{
 @media screen and (max-width: 767px) {
   .services {
     padding: 0 5%;
+  }
+  .sliderCircle{
+    margin: auto !important;
+    margin-top: 20px !important;
+  }
+  h2.serviceCircle{
+    padding: 9px;
+  }
+  .page-footer{
+    text-align: center !important;
   }
 }
 
@@ -2667,10 +2678,6 @@ figure img {
   text-decoration: none;
 }
 
-.page-footer p,
-.page-footer .social-icons {
-  margin-bottom: 3rem;
-}
 
 .page-footer .social-icons li {
   margin-right: 2.5rem;
