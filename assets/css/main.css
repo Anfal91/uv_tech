@@ -455,7 +455,7 @@ p.smaller-txt {
 }
 
 .customCircle{
-  background: url('/assets/images/customCircle.png') no-repeat;
+  background: url('../images/customCircle.png') no-repeat;
   background-size: cover;
   height: 80px;
   font-size: 14px;
