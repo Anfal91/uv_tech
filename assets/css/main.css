@@ -1225,12 +1225,15 @@ textarea + .err-msg {
 .services {
   padding: 0 14.0625%;
 }
-h2.serviceCircle{
-  padding: 36px;
-  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+.serviceCircle{
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   background: transparent linear-gradient(180deg, #156AFD 0%, #23ABDF 100%) 0% 0% no-repeat padding-box;
   font-weight: 500;
+}
+.serviceCircle h2{
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 }
 h2.uniCircle{
   padding: 35px !important;
@@ -1249,12 +1252,6 @@ h2.uniCircle{
   .sliderCircle{
     margin: auto !important;
     margin-top: 20px !important;
-  }
-  h2.serviceCircle{
-    padding: 18px;
-  }
-  h2.uniCircle{
-    padding: 17px !important;
   }
   .page-footer{
     text-align: center !important;
