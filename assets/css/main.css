@@ -1225,18 +1225,71 @@ textarea + .err-msg {
 .services {
   padding: 0 14.0625%;
 }
-.serviceCircle{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background: transparent linear-gradient(180deg, #156AFD 0%, #23ABDF 100%) 0% 0% no-repeat padding-box;
-  font-weight: 500;
+.serviceCircle-1{
+  background-image: url('../images/1.png');
+  background-size: auto;
+  background-repeat: no-repeat;
 }
-.serviceCircle h2{
-  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+.serviceCircle-2{
+  background-image: url('../images/2.png');
+  background-size: auto;
+  background-repeat: no-repeat;
 }
-h2.uniCircle{
-  padding: 35px !important;
+.serviceCircle-3{
+  background-image: url('../images/3.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.serviceCircle-4{
+  background-image: url('../images/4.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.serviceCircle-5{
+  background-image: url('../images/5.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.serviceCircle-6{
+  background-image: url('../images/6.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.serviceCircle-7{
+  background-image: url('../images/7.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px){
+  .serviceCircle-1{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-2{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-3{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-4{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-5{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-6{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .serviceCircle-7{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 .serviceBoxContent p{
   font-size: 14px;
