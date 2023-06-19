@@ -1611,7 +1611,16 @@ textarea + .err-msg {
   width: auto !important;
   overflow: hidden;
 }
-
+.product-content h4{
+  padding: 5px 0px !important;
+}
+.product-content h3{
+  margin: 10px 0px !important;
+}
+.product-content{
+  text-align: left;
+  padding-left: 10px;
+}
 .btn-filter-wrap {
   margin-bottom: 3.5rem;
 }
