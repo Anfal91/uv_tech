@@ -211,7 +211,18 @@ img {
 .modal .close {
   background-color: transparent;
 }
-
+img.mailIcon{
+  height: 50px;
+  position: fixed;
+  bottom: 10%;
+  right: 1%
+}
+img.WhatsAppIcon{
+  height: 50px;
+  position: fixed;
+  bottom: 1%;
+  right: 1%
+}
 section,
 article,
 aside,
@@ -1545,7 +1556,9 @@ textarea + .err-msg {
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;
 }
-
+img.playStoreImg, img.appStoreImg{
+  width: 40%;
+}
 .owl-carousel {
   -webkit-transition: height 1s !important;
   transition: height 1s !important;
@@ -1615,7 +1628,7 @@ textarea + .err-msg {
   padding: 5px 0px !important;
 }
 .product-content h3{
-  margin: 10px 0px !important;
+  margin-top: 25px !important;
 }
 .product-content{
   text-align: left;
@@ -1718,7 +1731,7 @@ textarea + .err-msg {
 }
 
 .img-card > img {
-  width: 100%;
+  width: 40%;
 }
 
 .img-card h4 {
@@ -1734,11 +1747,10 @@ textarea + .err-msg {
 }
 
 .img-card h4 span {
-  display: block;
   font-size: 2.2rem;
   line-height: 2.8rem;
   font-weight: 900;
-  color: #000;
+  color: #32325c;
   margin-bottom: 1.3rem;
   -webkit-transition: all .3s;
   transition: all .3s;
